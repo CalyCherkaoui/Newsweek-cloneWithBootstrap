@@ -123,6 +123,39 @@ html {
   color: black;
 }
 
+/* the texts inside the rubrics */
+
+.text-rubrics-black {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  color: black;
+}
+
+.text-rubric-grey {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  color: black;
+}
+
+/* sponsored stories */
+.sponsored-insight-blue-font {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  color: black;
+}
+
 .sponsored-title-bold-font {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
