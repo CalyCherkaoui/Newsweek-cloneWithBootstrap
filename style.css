@@ -22,10 +22,6 @@ body {
   box-sizing: border-box;
 }
 
-html {
-  font-size: 16px;
-}
-
 /* bootstrap */
 .selector-for-some-widget {
   box-sizing: content-box;
