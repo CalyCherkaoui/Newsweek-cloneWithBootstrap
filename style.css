@@ -253,11 +253,23 @@ body {
 
 /* ---------------------------------------------------------------------------------------- */
 
-.featured-stories,
-.opinion {
-  background-color: coral;
+
+.hero-stories-rubrics-wrapper{
+  border: 1px solid blue;
 }
 
 .top-story {
-  background-color: cyan;
+  border: 1px dashed red;
+}
+
+.featured-stories {
+  border: 1px dodgerblue dotted;
+}
+
+h2 {
+  background-color: fuchsia;
+}
+
+.opinion {
+  border: 1px solid black;
 }
