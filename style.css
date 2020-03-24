@@ -263,10 +263,10 @@ html {
 
 
 .hero-stories-rubrics-wrapper{
-  border: 1px solid blue;
+  border: 2px solid blue;
 }
 
-.top-story {
+/* .top-story {
   border: 1px dashed red;
 }
 
@@ -280,7 +280,7 @@ h2 {
 
 .opinion {
   border: 1px solid black;
-}
+} */
 
 #layer-svg-brand {
   fill: #f72210;
