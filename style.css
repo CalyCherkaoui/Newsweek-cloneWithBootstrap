@@ -281,3 +281,7 @@ h2 {
 .opinion {
   border: 1px solid black;
 }
+
+#layer {
+  fill: #f72210;
+}
