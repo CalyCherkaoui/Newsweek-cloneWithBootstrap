@@ -17,9 +17,17 @@ ____________________blue-insight: #3581f4 ______________________________________
 }
 
 body {
-  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: 1300px;
+}
+
+html {
+  background-color: #f4f5f6;
 }
 
 /* bootstrap */
