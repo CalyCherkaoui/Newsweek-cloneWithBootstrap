@@ -251,30 +251,13 @@ body {
   font-display: swap;
 }
 
-/* -------------------------Main Classes--------------------------------------------------- */
+/* -------------------------Styling the classes--------------------------------------------- */
 
 /* ---------------------------------------------------------------------------------------- */
 
+/*-------------- The-header ----------*/
 
-.hero-stories-rubrics-wrapper{
-  border: 2px solid blue;
-}
-
-/* .top-story {
-  border: 1px dashed red;
-}
-
-.featured-stories {
-  border: 1px dodgerblue dotted;
-}
-
-h2 {
-  background-color: fuchsia;
-}
-
-.opinion {
-  border: 1px solid black;
-} */
+/* the navigation bar  */
 
 #layer-svg-brand {
   fill: #f72210;
@@ -291,4 +274,8 @@ h2 {
 
 #layer-svg-brand-top {
   fill: white;
+}
+
+.hero-stories-rubrics-wrapper{
+  border: 2px solid blue;
 }
