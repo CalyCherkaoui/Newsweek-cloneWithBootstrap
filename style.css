@@ -283,3 +283,12 @@ h2 {
 .my-navbar {
   background-color: #f72210 !important;
 }
+
+.my-navbar-brand {
+  width : 132px;
+  height: auto;
+}
+
+#layer-svg-brand-top {
+  fill: white;
+}
