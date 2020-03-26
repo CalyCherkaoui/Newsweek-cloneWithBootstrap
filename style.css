@@ -43,7 +43,7 @@ body {
   font-style: normal;
   letter-spacing: normal;
   line-height: normal;
-  color: black;
+  color: white;
 }
 
 /* time and date in the logo area at the top */
@@ -54,7 +54,7 @@ body {
   font-style: normal;
   letter-spacing: normal;
   line-height: normal;
-  color: black;
+  color: white;
 }
 
 /* the sign-in and the subscribe botton area in the nav */
@@ -271,6 +271,9 @@ body {
 
 #layer-svg-brand-top {
   fill: white;
+  width: 132px;
+  height: 20px;
+  margin: 0;
 }
 
 .my-navbar-brand {
@@ -278,11 +281,17 @@ body {
   height: auto;
 }
 
+.weather-icon {
+  width: 24px;
+  height: 24px;
+  margin: 0;
+}
+
 .my-nav-hiden-list {
 width: 25vw !important;
 height: 100vh !important;
 right: -37% !important;
-top: 7px !important;
+z-index: -10;
 }
 
 .my-list-hover:hover ,
