@@ -287,11 +287,35 @@ body {
   margin: 0;
 }
 
+.signin-box-a {
+  font-size: 1.25rem;
+  padding: 0.3em 0.5em;
+}
+
+.subscribe-box-a {
+  background-color: white;
+  font-size: 1.25rem;
+  padding: 0.3em 1em;
+}
+
+.subscribe-box-a::after {
+  content: " >";
+}
+
 .my-nav-hiden-list {
 width: 25vw !important;
 height: 100vh !important;
-right: -37% !important;
+right: 0 !important;
+left: auto !important;
 z-index: -10;
+}
+
+.my-list-hover > a::after {
+  content: " >";
+  /* float: right;
+  font-size: large;
+  /* padding-right: 8px;
+  margin-right: 10px; */
 }
 
 .my-list-hover:hover ,
