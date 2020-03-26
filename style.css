@@ -259,12 +259,18 @@ body {
 
 /* the navigation bar  */
 
+/* the brand logo */
 #layer-svg-brand {
   fill: #f72210;
 }
 
+/* the sticky hiden navigation with burger menu */
 .my-navbar {
   background-color: #f72210 !important;
+}
+
+#layer-svg-brand-top {
+  fill: white;
 }
 
 .my-navbar-brand {
@@ -272,8 +278,11 @@ body {
   height: auto;
 }
 
-#layer-svg-brand-top {
-  fill: white;
+.my-nav-hiden-list {
+width: 25vw !important;
+height: 100vh !important;
+right: -37% !important;
+top: 7px !important;
 }
 
 .hero-stories-rubrics-wrapper{
