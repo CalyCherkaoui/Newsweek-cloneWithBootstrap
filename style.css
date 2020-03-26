@@ -285,6 +285,13 @@ right: -37% !important;
 top: 7px !important;
 }
 
+.my-list-hover:hover ,
+.my-list-hover:focus {
+  background-color: black;
+  color: white !important;
+  transition: 0.5s;
+}
+
 .hero-stories-rubrics-wrapper{
   border: 2px solid blue;
 }
