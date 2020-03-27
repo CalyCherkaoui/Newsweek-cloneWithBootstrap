@@ -16,18 +16,24 @@ ____________________blue-insight: #3581f4 ______________________________________
   padding: 0;
 }
 
+body {
+  background-color: #f4f5f6;
+}
+
 main {
   max-width: 1300px;
 }
 
-body {
-  background-color: #f4f5f6;
+.official-nav-top {
+  max-width: 1300px;
+  height: 9.4375rem;
 }
 
 /* bootstrap */
 .selector-for-some-widget {
   box-sizing: content-box;
 }
+
 
 /* -------------------------------------------------------------------------------------- */
 
@@ -277,8 +283,11 @@ body {
 }
 
 .my-navbar-brand {
-  width : 132px;
+  width : 8.5rem;
   height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: teal;
 }
 
 .weather-icon {
@@ -327,4 +336,16 @@ z-index: -10;
 
 .hero-stories-rubrics-wrapper{
   border: 2px solid blue;
+}
+
+.official-nav-brand-area-wrapper {
+  background-color: #f72210 !important;
+  height: 5rem;
+}
+
+#layer-svg-brand-center {
+  fill: white;
+  width: 24.75rem;
+  height: 3.75rem;
+  margin: 0.625rem auto 0;
 }
