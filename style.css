@@ -334,17 +334,21 @@ z-index: -10;
 
 .my-list-hover > a::after {
   content: " >";
-  /* float: right;
   font-size: large;
-  /* padding-right: 8px;
-  margin-right: 10px; */
+  line-height: 2rem;
+  position: absolute;
+  right: 11rem;
 }
 
 .my-list-hover:hover ,
 .my-list-hover:focus {
   background-color: black;
-  color: white !important;
   transition: 0.5s;
+}
+
+.my-list-hover > a:hover ,
+.my-list-hover > a:focus {
+  color: white !important;
 }
 
 .hero-stories-rubrics-wrapper{
