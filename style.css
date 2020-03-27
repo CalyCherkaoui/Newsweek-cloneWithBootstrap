@@ -381,14 +381,20 @@ border: none;
   color: white !important;
 }
 
-.hero-stories-rubrics-wrapper{
-  border: 2px solid blue;
+/* the official nav-bar */
+
+.official-nav-top {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 .official-nav-brand-area-wrapper {
   background-color: #f72210 !important;
   height: 5rem;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
+
 
 .official-nav-list-area-wrapper {
   position: relative;
@@ -411,6 +417,10 @@ border-top: 0.8125rem solid black;
   width: 24.75rem;
   height: 3.75rem;
   margin: 0.625rem auto 0;
+}
+
+.hero-stories-rubrics-wrapper{
+  border: 2px solid blue;
 }
 
 
