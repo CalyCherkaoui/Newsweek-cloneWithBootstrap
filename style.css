@@ -343,6 +343,22 @@ z-index: -10;
   height: 5rem;
 }
 
+.official-nav-list-area-wrapper {
+  position: relative;
+}
+
+.official-nav-list-area-wrapper::before {
+position: absolute;
+top: 0;
+right: 0;
+content: "";
+display: block;
+width: 3rem;
+background-color: black;
+border-left: 0.75rem solid white;
+border-top: 0.8125rem solid black;
+}
+
 #layer-svg-brand-center {
   fill: white;
   width: 24.75rem;
