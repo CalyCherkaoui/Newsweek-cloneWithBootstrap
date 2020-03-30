@@ -487,7 +487,8 @@ border-top: 0.8125rem solid #f72210;
 /* hero strories section */
 
 .top-story,
-.featured-stories {
+.featured-stories,
+.opinion {
   background-color: white !important;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
