@@ -194,28 +194,6 @@ main {
   text-transform: uppercase;
 }
 
-/* the texts inside the rubrics
-
-.text-rubrics-black {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  font-weight: 300;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
-  color: black;
-} */
-
-/* .text-rubric-grey {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  font-weight: 300;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
-  color: black;
-} */
-
 /* sponsored stories */
 .sponsored-insight-blue-font {
   font-family: Arial, Helvetica, sans-serif;
@@ -505,7 +483,8 @@ border-top: 0.8125rem solid #f72210;
 
 .top-story,
 .featured-stories,
-.opinion {
+.opinion,
+.debate {
   background-color: white !important;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -536,7 +515,7 @@ border-top: 0.8125rem solid #f72210;
 }
 
 .empty-grey-separator {
-  height: 1.125rem;
+height: 1.125rem;
 background-color: #f4f5f7;
 border-top: 1px solid #e2e2e2;
 }
@@ -560,6 +539,11 @@ border-top: 1px solid #e2e2e2;
 .opinion-author-pic > img {
   height: 3.9375rem;
   width: 3.9375rem;
+}
+
+.debater-img {
+  height: 5.9375rem;
+  width: 5.9375rem;;
 }
 
 
