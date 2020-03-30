@@ -545,15 +545,32 @@ border-top: 1px solid #e2e2e2;
   position: relative;
 }
 
+
+.border-double {
+  height: 4px;
+  border-top: solid 1px #d9d9d9;
+  border-bottom: solid 1px #d9d9d9;
+  margin-top: 1rem;
+  width: 100%;
+}
+
 .debater-img {
   height: 5.9375rem;
   width: 5.9375rem;;
+  margin-right: 0.9375rem;
+}
+
+.byauthor-debate {
+  height: 3rem;
+  margin-top: 0.5rem;
+  width: 100%;
 }
 
 .debate-author-pic {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 1rem;
+  margin-right: 0.2rem !important;
   z-index: 30;
 }
 
@@ -568,8 +585,17 @@ border-top: 1px solid #e2e2e2;
   line-height: 2.857em;
   font-weight: 700;
   color: #d6d6d6;
+  /* margin-top: 1rem; */
+  margin-bottom: 1rem;
 }
 
+.red-border {
+  border-top: #f92859 4px solid;
+}
+
+.blue-border {
+  border-top:  #1c87fb 4px solid;
+}
 
 
 
