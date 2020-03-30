@@ -598,5 +598,17 @@ border-top: 1px solid #e2e2e2;
   border-top:  #1c87fb 4px solid;
 }
 
+.more-story-vignette {
+  padding-bottom: 0.625rem;
+  padding-top: 0.625rem;
+  border-top: 1px solid #ddd;
+}
+
+.more-story-pic {
+  height: 5.9375rem;
+  width: 5.9375rem;
+  margin-right: 0.9375rem;
+}
+
 
 
