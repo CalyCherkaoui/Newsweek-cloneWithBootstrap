@@ -127,6 +127,19 @@ a:hover {
   text-transform: uppercase;
 }
 
+/* name of rubrics of the article in gray box with red color */
+
+.red-nofill-features {
+  font-family: "Roboto Condensed",sans-serif;
+  font-size: 1.063rem;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 0.941em;
+  color: #f72210 !important;
+  text-transform: uppercase;
+}
+
 /* red one word title in grey box like: World*/
 .red-grey-box-font {
   font-family: "Roboto Condensed",sans-serif;
@@ -501,8 +514,24 @@ border-top: 0.8125rem solid #f72210;
   color: white;
 }
 
-.hero-stories-rubrics-wrapper{
+/* .hero-stories-rubrics-wrapper{
   border: 2px solid blue;
+} */
+
+/* hero strories section */
+
+.feature-image {
+  position: relative;
+}
+
+.grey-trans-box-img {
+  background-color: rgba(255, 255, 255, 0.65);
+  position: absolute;
+  z-index: 2000;
+  left: 0;
+  bottom: 0;
+  padding: 0.5rem 0.9375rem 0.5625rem;
+  margin: 0 !important;
 }
 
 
