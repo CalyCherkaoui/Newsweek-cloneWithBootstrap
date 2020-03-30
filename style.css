@@ -484,7 +484,8 @@ border-top: 0.8125rem solid #f72210;
 .top-story,
 .featured-stories,
 .opinion,
-.debate {
+.debate,
+.sponsored-insight-1 {
   background-color: white !important;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
