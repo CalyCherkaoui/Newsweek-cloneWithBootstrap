@@ -487,7 +487,9 @@ border-top: 0.8125rem solid #f72210;
 .debate,
 .sponsored-insight-1,
 .more-stories,
-.culture-travel {
+.culture-travel,
+.latest-news,
+.sponsored-insight-2 {
   background-color: white !important;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -600,7 +602,8 @@ border-top: 1px solid #e2e2e2;
   border-top:  #1c87fb 4px solid;
 }
 
-.more-story-vignette {
+.more-story-vignette,
+.latest-news-vignette {
   padding-bottom: 0.625rem;
   padding-top: 0.625rem;
   border-top: 1px solid #ddd;
