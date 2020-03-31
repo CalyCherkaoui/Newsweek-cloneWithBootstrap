@@ -485,7 +485,9 @@ border-top: 0.8125rem solid #f72210;
 .featured-stories,
 .opinion,
 .debate,
-.sponsored-insight-1 {
+.sponsored-insight-1,
+.more-stories,
+.culture-travel {
   background-color: white !important;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
