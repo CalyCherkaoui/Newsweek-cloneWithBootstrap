@@ -609,7 +609,8 @@ border-top: 1px solid #e2e2e2;
 }
 
 .in-mag-feature,
-.red-N-title {
+.red-N-title,
+.featured-slideshows {
   background-color: white !important;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
