@@ -629,7 +629,15 @@ footer {
   padding-right: 1rem !important;
 }
 
-
+.subscribe-wrapper {
+  margin-bottom: 1.25rem;
+  margin-top: 1.25rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.25rem;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  background-color: #f4f5f6;
+}
 
 .subscribe-red-box {
   background-color: #f72210;
