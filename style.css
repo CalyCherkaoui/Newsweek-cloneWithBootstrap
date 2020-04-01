@@ -332,6 +332,11 @@ a {
   padding: 0.3em 0.5em;
 }
 
+.signin-box-a:hover {
+  color: white;
+  text-decoration: none;
+}
+
 .subscribe-box-a {
   background-color: white;
   padding-right: 0.625rem;
@@ -343,6 +348,11 @@ a {
 .subscribe-box-a::after {
   content: " >";
   padding-left: 0.7rem;
+}
+
+.subscribe-box-a:hover {
+color: #f72210;
+text-decoration: none;
 }
 
 .hamburger-menu-icon {
