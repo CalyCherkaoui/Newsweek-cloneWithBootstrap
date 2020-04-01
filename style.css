@@ -629,6 +629,23 @@ footer {
   padding-right: 1rem !important;
 }
 
+
+
+.subscribe-red-box {
+  background-color: #f72210;
+  padding-right: 0.625rem;
+  padding-left: 0.75rem;
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+  color: white !important;
+}
+
+.subscribe-red-box::after {
+  content: " >";
+  padding-left: 0.7rem;
+}
+
+
 /* footer */
 
 /* the brand logo */
