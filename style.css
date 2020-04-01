@@ -665,14 +665,20 @@ footer {
   color: #3581f4;
 }
 
+.footer-language :nth-child(1) {
+  border: none !important;
+}
+
 .footer-link {
-  border-right: 1px solid #d9d9d9 !important;
+  border-right: 1px solid #d9d9d9;
   padding-right: 0.625rem;
   margin-right: 0.625rem;
+  margin-top: 0.375rem;
+  margin-bottom: 0.375rem;
 }
 
 .footer-link > a:hover,
 .footer-link > a:focus {
-  text-decoration: none !important;
-  color: black !important;
+  text-decoration: none;
+  color: black;
 }
