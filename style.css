@@ -18,6 +18,7 @@ ____________________blue-insight: #3581f4 ______________________________________
 
 body {
   background-color: #f4f5f6;
+  font-family: Arial,Helvetica,sans-serif;
 }
 
 main {
@@ -46,7 +47,7 @@ main {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 0.938rem;
   font-weight: 700;
-  font-style:normal ;
+  font-style: normal;
   letter-spacing: normal;
   line-height: 2.267em;
   color: white;
@@ -86,7 +87,7 @@ main {
 
 /* the navigation bar elements */
 .hamburger-list-font {
-  font-family: "Roboto Condensed",sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 1.188rem;
   font-weight: 700;
   font-style: normal;
@@ -97,7 +98,7 @@ main {
 }
 
 .official-nav-list-font {
-  font-family: "Roboto Condensed",sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 1.188rem;
   font-weight: 700;
   font-style: normal;
@@ -109,7 +110,7 @@ main {
 
 /* the title of rubric - like: top-stories */
 .grey-rubric-font {
-  font-family: "Roboto Condensed",sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 1rem;
   font-weight: 700;
   font-style: normal;
@@ -122,7 +123,7 @@ main {
 /* name of rubrics of the article in gray box with red color */
 
 .red-nofill-features {
-  font-family: "Roboto Condensed",sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 1.063rem;
   font-weight: 700;
   font-style: normal;
@@ -136,14 +137,13 @@ main {
 /* main title of card with red underline hover */
 
 .main-card-title-font {
-  font-family: "Roboto Condensed",sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 1.375rem;
   font-weight: 700;
   font-style: normal;
   letter-spacing: normal;
   line-height: 1.091em;
   color: black;
-
 }
 
 .main-card-title-font:hover,
@@ -168,7 +168,7 @@ main {
 }
 
 .opinion-title-like-font {
-  font-family: "Roboto Condensed",sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 1.063rem;
   font-weight: 700;
   font-style: normal;
@@ -184,7 +184,7 @@ main {
 }
 
 .byauthor-font {
-  font-family: "Roboto Condensed",sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
   font-style: normal;
@@ -197,7 +197,7 @@ main {
 
 /* section at bottom half of the page that starts with an N */
 .red-n-icon-title-font {
-  font-family: "Roboto Condensed",sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 1.188rem;
   font-weight: 700;
   font-style: normal;
@@ -207,26 +207,27 @@ main {
   text-transform: uppercase;
 }
 
-/* rubrics at the bottom half of the page that starts with red titles */
-.red-rubric-font {
-  font-family: Liberation Sans , Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  font-weight: 300;
-  font-style: normal;
-  letter-spacing: normal;
-  line-height: normal;
-  color: black;
-}
 
 /* the footer elements */
+
+.copyrights-font {
+  font-family: "Liberation Sans", sans-serif;
+  font-size: 0.75rem;
+  line-height: 1em;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #666;
+  text-transform: uppercase;
+}
+
 .footer-font {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 12px;
-  font-weight: 300;
+  font-family: "Liberation Sans", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
   font-style: normal;
   letter-spacing: normal;
-  line-height: normal;
-  color: black;
+  line-height: 1.071em;
+  color: #666;
 }
 
 /* font families */
@@ -267,14 +268,9 @@ main {
 
 /* ---------------------------------------------------------------------------------------- */
 
-/*-------------- The-header ----------*/
+/* -------------- The-header ---------- */
 
 /* the navigation bar  */
-
-/* the brand logo */
-#layer-svg-brand {
-  fill: #f72210;
-}
 
 /* the sticky hiden navigation with burger menu */
 .my-navbar {
@@ -289,7 +285,7 @@ main {
 }
 
 .my-navbar-brand {
-  width : 8.5rem;
+  width: 8.5rem;
   height: auto;
   margin-right: auto;
   margin-left: auto;
@@ -321,7 +317,7 @@ main {
 .hamburger-menu-icon {
   font-size: 1.6rem;
   font-family: "Genericons";
-  color:white;
+  color: white;
   opacity: 0.6;
 }
 
@@ -352,15 +348,15 @@ main {
 }
 
 .my-nav-hiden-list {
-max-width: 35vw !important;
-width: 18rem !important;
-height: 100vh !important;
-right: 0 !important;
-left: auto !important;
-z-index: -10;
-transform: translate3d(10px, 5px, 0px) !important;
-border-radius: 0%;
-border: none;
+  max-width: 35vw !important;
+  width: 18rem !important;
+  height: 100vh !important;
+  right: 0 !important;
+  left: auto !important;
+  z-index: -10;
+  transform: translate3d(10px, 5px, 0) !important;
+  border-radius: 0%;
+  border: none;
 }
 
 .my-list-hover > a::after {
@@ -371,13 +367,13 @@ border: none;
   right: 5rem;
 }
 
-.my-list-hover:hover ,
+.my-list-hover:hover,
 .my-list-hover:focus {
   background-color: black;
   transition: 0.5s;
 }
 
-.my-list-hover > a:hover ,
+.my-list-hover > a:hover,
 .my-list-hover > a:focus {
   color: white !important;
 }
@@ -415,19 +411,19 @@ border: none;
 
 .official-nav-list-area-wrapper :first-child,
 .official-nav-list-area-wrapper :nth-last-child(2) {
- border: none !important;
+  border: none !important;
 }
 
 .official-nav-list-area-wrapper::before {
-position: absolute;
-top: 0;
-right: 0;
-content: "";
-display: block;
-width: 5rem;
-background-color: #f72210;
-border-left: 0.75rem solid white;
-border-top: 0.8125rem solid #f72210;
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  width: 5rem;
+  background-color: #f72210;
+  border-left: 0.75rem solid white;
+  border-top: 0.8125rem solid #f72210;
 }
 
 .official-nav-list-search-input {
@@ -501,9 +497,9 @@ border-top: 0.8125rem solid #f72210;
 }
 
 .empty-grey-separator {
-height: 1.125rem;
-background-color: #f4f5f7;
-border-top: 1px solid #e2e2e2;
+  height: 1.125rem;
+  background-color: #f4f5f7;
+  border-top: 1px solid #e2e2e2;
 }
 
 .opinion-vignette {
@@ -531,7 +527,6 @@ border-top: 1px solid #e2e2e2;
   position: relative;
 }
 
-
 .border-double {
   height: 4px;
   border-top: solid 1px #d9d9d9;
@@ -542,7 +537,7 @@ border-top: 1px solid #e2e2e2;
 
 .debater-img {
   height: 5.9375rem;
-  width: 5.9375rem;;
+  width: 5.9375rem;
   margin-right: 0.9375rem;
 }
 
@@ -566,11 +561,12 @@ border-top: 1px solid #e2e2e2;
   background-color: #000;
   border-radius: 50%;
   text-align: center;
-  font-family: "Roboto Condensed",sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 0.875rem;
   line-height: 2.857em;
   font-weight: 700;
   color: #d6d6d6;
+
   /* margin-top: 1rem; */
   margin-bottom: 1rem;
 }
@@ -580,7 +576,7 @@ border-top: 1px solid #e2e2e2;
 }
 
 .blue-border {
-  border-top:  #1c87fb 4px solid;
+  border-top: #1c87fb 4px solid;
 }
 
 .more-story-vignette,
@@ -603,14 +599,16 @@ border-top: 1px solid #e2e2e2;
   width: 1.8125rem;
   background-image: url(https://g.newsweek.com/www/images/logo-n1.svg);
   background-repeat: no-repeat;
-  background-color:  #f72210;
+  background-color: #f72210;
   background-position: center;
   margin-right: 0.625rem;
 }
 
 .in-mag-feature,
 .red-N-title,
-.featured-slideshows {
+.featured-slideshows,
+.subscribe-newsletter-section,
+footer {
   background-color: white !important;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -618,3 +616,41 @@ border-top: 1px solid #e2e2e2;
   padding-right: 1rem !important;
 }
 
+/* footer */
+
+/* the brand logo */
+
+.brand-socialmedia {
+  padding-bottom: 0.75rem !important;
+  padding-top: 0.625rem !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  border-bottom: solid 1px #d9d9d9;
+}
+
+.brand-socialmedia-left {
+  text-align: start;
+}
+
+#layer-svg-brand {
+  fill: #f72210;
+  width: 14.75rem;
+  height: 2.25rem;
+  margin-right: 0.9375rem;
+}
+
+.socialmedia-right {
+  width: 9.9375rem;
+}
+
+.social-media-icon {
+  margin-left: 0.625;
+}
+
+.social-media-icon > a {
+  font-size: 1.625rem;
+  line-height: 0.923em;
+  font-weight: 400;
+  font-family: "Genericons", sans-serif;
+  color: #666;
+}
