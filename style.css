@@ -25,10 +25,6 @@ main {
   max-width: 1300px;
 }
 
-.official-nav-top {
-  max-width: 1300px;
-  height: 9.4375rem;
-}
 
 /* bootstrap */
 .selector-for-some-widget {
@@ -303,6 +299,20 @@ a {
 
 /* the navigation bar  */
 
+.official-nav-top {
+  background-color: #f4f5f6;
+  height: 9.4375rem;
+}
+
+.larg {
+  max-width: 1300px;
+}
+
+.sticky-nav-top {
+  margin-top: -3.6rem;
+}
+
+
 /* the sticky hiden navigation with burger menu */
 .my-navbar {
   background-color: #f72210 !important;
@@ -424,13 +434,15 @@ text-decoration: none;
 .official-nav-top {
   padding-left: 0 !important;
   padding-right: 0 !important;
+  position: relative;
+  z-index: 2480;
 }
 
 .official-nav-brand-area-wrapper {
   background-color: #f72210 !important;
   height: 5rem;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 #layer-svg-brand-center {
@@ -445,8 +457,8 @@ text-decoration: none;
   position: relative;
   list-style: none;
   background-color: white;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
   padding-right: 0;
 }
 
@@ -607,8 +619,6 @@ text-decoration: none;
   line-height: 2.857em;
   font-weight: 700;
   color: #d6d6d6;
-
-  /* margin-top: 1rem; */
   margin-bottom: 1rem;
 }
 
