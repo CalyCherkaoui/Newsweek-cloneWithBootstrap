@@ -310,11 +310,13 @@ a {
 
 .sticky-nav-top {
   margin-top: -3.6rem;
+  margin-bottom: 3rem;
 }
 
 
 /* the sticky hiden navigation with burger menu */
 .my-navbar {
+  height: 3.125rem;
   background-color: #f72210 !important;
 }
 
