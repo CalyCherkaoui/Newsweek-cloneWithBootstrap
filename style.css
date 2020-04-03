@@ -537,6 +537,7 @@ text-decoration: none;
 .feature {
   border-radius: 0% !important;
   border: none !important;
+  padding-bottom: 1.25rem;
 }
 
 .feature-image-box {
@@ -554,6 +555,11 @@ text-decoration: none;
   bottom: 0;
   padding: 0.5rem 0.9375rem 0.5625rem;
   margin: 0 !important;
+}
+
+.grey-trans-box-img a:hover,
+.grey-trans-box-img a:focus {
+text-decoration: none;
 }
 
 .empty-grey-separator {
@@ -637,6 +643,12 @@ text-decoration: none;
 
 .blue-border {
   border-top: #1c87fb 4px solid;
+}
+
+.debate-writer:hover,
+.debate-writer:focus {
+  text-decoration: none;
+  color: #000;
 }
 
 .more-story-vignette,
