@@ -134,6 +134,17 @@ a {
   text-transform: uppercase;
 }
 
+.blue-nofill-features {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.063rem;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 0.941em;
+  color: #3581f4 !important;
+  text-transform: uppercase;
+}
+
 
 /* main title of card with red underline hover */
 
@@ -538,6 +549,17 @@ text-decoration: none;
   border-radius: 0% !important;
   border: none !important;
   padding-bottom: 1.25rem;
+}
+
+.feature-insight {
+  border-radius: 0% !important;
+  border: 1px solid #e6e6e6 !important;
+  padding-bottom: 1.25rem;
+  margin-bottom: 1.875rem ;
+}
+
+.feature-insight-text {
+  padding: 1.25rem;
 }
 
 .feature-image-box {
