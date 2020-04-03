@@ -177,6 +177,7 @@ a {
   letter-spacing: normal !important;
   line-height: 1.385em !important;
   color: #333 !important;
+  margin-top: 0.625rem;
 }
 
 .opinion-title-like-font {
@@ -194,6 +195,15 @@ a {
   color: #f72210;
   text-decoration: none;
 }
+
+.underline-red-hover:hover,
+.underline-red-hover:focus {
+  text-decoration-line: underline;
+  text-decoration-color: #f72210;
+  text-decoration-style: solid;
+  color: black;
+}
+
 
 .byauthor-font {
   font-family: "Roboto Condensed", sans-serif;
@@ -554,7 +564,6 @@ text-decoration: none;
 .feature-insight {
   border-radius: 0% !important;
   border: 1px solid #e6e6e6 !important;
-  padding-bottom: 1.25rem;
   margin-bottom: 1.875rem ;
 }
 
