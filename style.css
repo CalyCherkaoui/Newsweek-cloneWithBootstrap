@@ -299,6 +299,18 @@ a {
   text-transform: uppercase;
 }
 
+.feature-img-large {
+  object-fit: cover;
+  object-position: center;
+  height: 19rem;
+}
+
+.feature-img-medium {
+  object-fit: cover;
+  object-position: center;
+  height: 13rem;
+}
+
 /* subscribe newsletter section */
 .subscribe-title-font {
   font-family: "Roboto Condensed",sans-serif;
