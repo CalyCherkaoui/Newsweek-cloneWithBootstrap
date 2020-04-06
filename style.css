@@ -199,7 +199,7 @@ a {
   letter-spacing: normal !important;
   line-height: 1.385em !important;
   color: #333 !important;
-  margin-top: 0.625rem;
+  /* margin-top: 0.625rem; */
 }
 
 .opinion-title-like-font {
@@ -633,6 +633,10 @@ text-decoration: none;
   padding-bottom: 1.25rem;
 }
 
+.features-title-text {
+  margin-bottom: 0.2rem !important;
+}
+
 .feature-insight {
   border-radius: 0% !important;
   border: 1px solid #e6e6e6 !important;
@@ -806,24 +810,36 @@ color: white !important;
 .inTheMagazine-section,
 .editor-picks,
 .featured-slideshows,
-.red-N-title,
 .subscribe-newsletter-section,
-footer,
 .brand-socialmedia,
 .footer-language {
   background-color: white !important;
-  /* padding-top: 1.25rem;
+  padding-top: 1.25rem;
   padding-bottom: 1.25rem;
   padding-left: 1rem !important;
-  padding-right: 1rem !important; */
+  padding-right: 1rem !important;
+  
+}
+
+.red-N-title {
+  padding-bottom: 0.75rem;
+  margin-bottom: 0.9375rem;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+footer {
   padding: 1.875rem;
 }
 
-.in-mag-feature {
+.in-mag-feature,
+.edit-picks-feature,
+.slideshow-feature {
   padding-right: 0 ;
   padding-left: 0 ;
   margin-bottom: 1rem;
   border: none ;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .inTheMagazine-body {
