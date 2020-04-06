@@ -807,15 +807,16 @@ color: white !important;
 .editor-picks,
 .featured-slideshows,
 .red-N-title,
-.subscribe-newsletter-section
+.subscribe-newsletter-section,
 footer,
 .brand-socialmedia,
 .footer-language {
   background-color: white !important;
-  padding-top: 1.25rem;
+  /* padding-top: 1.25rem;
   padding-bottom: 1.25rem;
   padding-left: 1rem !important;
-  padding-right: 1rem !important;
+  padding-right: 1rem !important; */
+  padding: 1.875rem;
 }
 
 .in-mag-feature {
