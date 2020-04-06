@@ -14,7 +14,7 @@ In this project, I tried to build a clone of ![the Newsweek magazine web page](h
 ## Code Review Tools:
 - [W3 HTML Validator](https://validator.w3.org/)
 - CSS linter : [Stickler](https://stickler-ci.com/)
-- Microverse's Team
+- The fabulous Microverse's team :)
 
 
 ## Usage:
