@@ -27,7 +27,7 @@ firefox index.html
 
 
 ## Live Demo:
-[Clic here to see a live version of the project](https://rawcdn.githack.com/CalyCherkaoui/Newsweek-cloneWithBootstrap/c8f4ea2cf902d7faf30b4da25ae403e077fb2325/index.html)
+[Click here to see a live version of the project](https://rawcdn.githack.com/CalyCherkaoui/Newsweek-cloneWithBootstrap/c8f4ea2cf902d7faf30b4da25ae403e077fb2325/index.html)
 
 
 ## Author:
