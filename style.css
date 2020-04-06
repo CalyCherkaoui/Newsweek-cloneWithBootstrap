@@ -933,17 +933,17 @@ footer {
 }
 
 .newsletter-wrapper {
-  margin-bottom: 1.25rem;
-  padding-bottom: 1.25rem;
+  /* padding-bottom: 1.25rem; */
   margin-left: 0 !important;
   margin-right: 0 !important;
-}
-
-.newsletter-wrapper {
   margin-bottom: 1.25rem;
   margin-top: 0.7rem;
   border: solid 1px #ebebeb;
   min-height: 11.8125rem;
+}
+
+.newsletter-feature-text {
+  padding-bottom: 1.25rem;
 }
 
 .newsletter-feature-image {
