@@ -288,6 +288,22 @@ a {
   color: #f72210;
 }
 
+.red-rubric-name-font {
+  font-family: "Roboto Condensed",sans-serif;
+  font-size: 1.375rem;
+  line-height: 1em;
+  letter-spacing: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f72210 !important;
+}
+
+.red-rubric-name-font:hover,
+.red-rubric-name-font:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .cover-title-font {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1.125rem;
@@ -833,7 +849,10 @@ footer {
 
 .in-mag-feature,
 .edit-picks-feature,
-.slideshow-feature {
+.slideshow-feature,
+.slideshow-section,
+.red-rubric-section,
+.rubric-feature {
   padding-right: 0 ;
   padding-left: 0 ;
   margin-bottom: 1rem;
@@ -875,6 +894,14 @@ footer {
     padding: 0.4375rem;
     margin-right: 0.4375rem;
     color: white !important;
+}
+
+.red-rubric-name {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 1.5625rem;
+  padding-bottom: 0.6875rem;
+  border-top: 1px solid #d9d9d9;
 }
 
 .subscribe-feature,
