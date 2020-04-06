@@ -25,7 +25,6 @@ main {
   max-width: 1300px;
 }
 
-
 /* bootstrap */
 .selector-for-some-widget {
   box-sizing: content-box;
@@ -35,6 +34,23 @@ a {
   color: inherit;
 }
 
+.social-media-icon {
+  margin-left: 0.625;
+}
+
+.social-media-icon > a {
+  font-size: 1.625rem;
+  line-height: 0.923em;
+  font-weight: 400;
+  font-family: "Genericons", sans-serif;
+  color: #666;
+}
+
+.social-media-icon > a:hover,
+.social-media-icon > a:focus {
+  text-decoration: none;
+  color: #3581f4;
+}
 
 /* -------------------------------------------------------------------------------------- */
 
@@ -199,6 +215,7 @@ a {
   letter-spacing: normal !important;
   line-height: 1.385em !important;
   color: #333 !important;
+
   /* margin-top: 0.625rem; */
 }
 
@@ -225,7 +242,6 @@ a {
   text-decoration-style: solid;
   color: black;
 }
-
 
 .byauthor-font {
   font-family: "Roboto Condensed", sans-serif;
@@ -255,7 +271,7 @@ a {
 }
 
 .travel-text-font {
-  font-family: "Helvetica Neue","Helvetica",Arial,sans-serif;
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
   font-size: 0.938rem !important;
   font-weight: 400 !important;
   font-style: normal !important;
@@ -279,7 +295,7 @@ a {
 }
 
 .red-section-category-font {
-  font-family: "Roboto Condensed",sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 1rem;
   line-height: 1em;
   letter-spacing: normal;
@@ -289,7 +305,7 @@ a {
 }
 
 .red-rubric-name-font {
-  font-family: "Roboto Condensed",sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 1.375rem;
   line-height: 1em;
   letter-spacing: normal;
@@ -329,7 +345,7 @@ a {
 
 /* subscribe newsletter section */
 .subscribe-title-font {
-  font-family: "Roboto Condensed",sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 1.25rem;
   line-height: 1.4em;
   letter-spacing: normal;
@@ -409,11 +425,6 @@ a {
 
 /* the navigation bar  */
 
-.official-nav-top {
-  background-color: #f4f5f6;
-  height: 9.4375rem;
-}
-
 .larg {
   max-width: 1300px;
 }
@@ -473,13 +484,13 @@ a {
 }
 
 .subscribe-box-a:hover {
-color: #f72210;
-text-decoration: none;
+  color: #f72210;
+  text-decoration: none;
 }
 
 .hamburger-menu-icon {
   font-size: 1.6rem;
-  font-family: "Genericons";
+  font-family: "Genericons", sans-serif;
   color: white;
   opacity: 0.6;
 }
@@ -548,6 +559,8 @@ text-decoration: none;
   padding-right: 0 !important;
   position: relative;
   z-index: 2480;
+  background-color: #f4f5f6;
+  height: 9.4375rem;
 }
 
 .official-nav-brand-area-wrapper {
@@ -656,7 +669,7 @@ text-decoration: none;
 .feature-insight {
   border-radius: 0% !important;
   border: 1px solid #e6e6e6 !important;
-  margin-bottom: 1.875rem ;
+  margin-bottom: 1.875rem;
 }
 
 .feature-insight-text {
@@ -682,7 +695,7 @@ text-decoration: none;
 
 .grey-trans-box-img a:hover,
 .grey-trans-box-img a:focus {
-text-decoration: none;
+  text-decoration: none;
 }
 
 .travel-grey-trans-box-img {
@@ -697,14 +710,14 @@ text-decoration: none;
 
 .travel-grey-trans-box-img:hover,
 .travel-grey-trans-box-img:focus {
-text-decoration: none;
-background-color: rgb(39, 38, 38);
+  text-decoration: none;
+  background-color: rgb(39, 38, 38);
 }
 
 .travel-grey-trans-box-img a:hover,
 .travel-grey-trans-box-img a:focus {
-text-decoration: none;
-color: white !important;
+  text-decoration: none;
+  color: white !important;
 }
 
 .empty-grey-separator {
@@ -847,7 +860,7 @@ footer {
 .brand-socialmedia,
 .footer-language {
   padding-top: 1.25rem;
-  padding-bottom: 1.25rem;  
+  padding-bottom: 1.25rem;
 }
 
 .in-mag-feature,
@@ -856,10 +869,10 @@ footer {
 .slideshow-section,
 .red-rubric-section,
 .rubric-feature {
-  padding-right: 0 ;
-  padding-left: 0 ;
+  padding-right: 0;
+  padding-left: 0;
   margin-bottom: 1rem;
-  border: none ;
+  border: none;
   margin-left: auto;
   margin-right: auto;
 }
@@ -893,10 +906,10 @@ footer {
 }
 
 .title-box1 {
-    background-color: #f72210;
-    padding: 0.4375rem;
-    margin-right: 0.4375rem;
-    color: white !important;
+  background-color: #f72210;
+  padding: 0.4375rem;
+  margin-right: 0.4375rem;
+  color: white !important;
 }
 
 .red-rubric-name {
@@ -933,7 +946,6 @@ footer {
 }
 
 .newsletter-wrapper {
-  /* padding-bottom: 1.25rem; */
   margin-left: 0 !important;
   margin-right: 0 !important;
   margin-bottom: 1.25rem;
@@ -947,18 +959,18 @@ footer {
 }
 
 .newsletter-feature-image {
-background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
+  background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .my-box-sm {
-height: 10rem;
+  height: 10rem;
 }
 
 .my-box-md {
-height: 11.8125rem;
+  height: 11.8125rem;
 }
 
 .my-box-lg {
@@ -975,7 +987,7 @@ height: 11.8125rem;
 .subscribe-feature-image :nth-child(2) {
   position: absolute;
   top: 0.8125rem;
-  left: 5rem
+  left: 5rem;
 }
 
 .subscribe-title {
@@ -1002,13 +1014,13 @@ height: 11.8125rem;
 }
 
 .subscribe-red-box:hover {
-background-color: #b41a0c;
+  background-color: #b41a0c;
 }
 
 .subscribe-red-box > a:hover,
 .subscribe-red-box > a:focus {
-color: inherit;
-text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 
@@ -1037,24 +1049,6 @@ text-decoration: none;
 
 .socialmedia-right {
   width: 9.9375rem;
-}
-
-.social-media-icon {
-  margin-left: 0.625;
-}
-
-.social-media-icon > a {
-  font-size: 1.625rem;
-  line-height: 0.923em;
-  font-weight: 400;
-  font-family: "Genericons", sans-serif;
-  color: #666;
-}
-
-.social-media-icon > a:hover,
-.social-media-icon > a:focus {
-  text-decoration: none;
-  color: #3581f4;
 }
 
 .footer-language :nth-child(1) {
