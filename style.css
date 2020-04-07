@@ -546,13 +546,14 @@ a {
 }
 
 .official-nav-list-area-wrapper {
-  height: 3.5rem;
+  height: 4.5rem;
   position: relative;
   list-style: none;
   background-color: white;
   margin-left: auto !important;
   margin-right: auto !important;
   padding-right: 0;
+  border-bottom: 1px solid #d9d9d9;
 }
 
 .official-nav-list-area-wrapper :first-child,
