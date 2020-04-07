@@ -1,0 +1,1041 @@
+/* -----------------the colors palette : ___________________________________________
+____________________red : #f72210 __________________________________________________
+____________________black : black __________________________________________________
+____________________grey-text : rgba(39,39,39,0.5) _________________________________
+____________________grey-title: rgba(3,3,3, 0.4)____________________________________
+____________________blue-insight: #3581f4 __________________________________________ */
+
+/* --------------------------------------------------------------------------------- */
+
+/* ------------------------Global-classes-styling----------------------------------- */
+
+/* --------------------------------------------------------------------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f4f5f6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  max-width: 1300px;
+}
+
+/* bootstrap */
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+a {
+  color: inherit;
+}
+
+.social-media-icon {
+  margin-left: 0.625;
+}
+
+.social-media-icon > a {
+  font-size: 1.625rem;
+  line-height: 0.923em;
+  font-weight: 400;
+  font-family: "Genericons", sans-serif;
+  color: #666;
+}
+
+.social-media-icon > a:hover,
+.social-media-icon > a:focus {
+  text-decoration: none;
+  color: #3581f4;
+}
+
+/* ----------------------------Typography------------------------------------------------- */
+.weather-font {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 0.938rem;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 2.267em;
+  color: white;
+}
+
+.logo-time-font {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 2.125em;
+  color: white;
+}
+
+.signin-font {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 0.778em;
+  color: white;
+}
+
+.subscribe-top-font {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 0.778em;
+  color: #f72210;
+}
+
+.hamburger-list-font {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.188rem;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 1.263em;
+  text-transform: uppercase;
+  color: black;
+}
+
+.official-nav-list-font {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.188rem;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 1.263em;
+  text-transform: capitalize;
+  color: black;
+}
+
+.grey-rubric-font {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 1em;
+  color: rgba(3, 3, 3, 0.4);
+  text-transform: uppercase;
+  padding-bottom: 0.6875rem;
+  margin-left: 0 !important;
+}
+
+.nofill-features {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.063rem;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 0.941em;
+  text-transform: uppercase;
+}
+
+.red-nofill-features {
+  color: #f72210 !important;
+}
+
+.blue-nofill-features {
+  color: #3581f4 !important;
+}
+
+.black-nofill-features {
+  font-family: "Liberation Sans", sans-serif;
+  font-size: 0.813rem;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 1.538em;
+  color: #272727;
+  text-transform: capitalize;
+}
+
+.main-card-title-font {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 1em;
+  color: black;
+}
+
+.main-card-title-font-smaller {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 1em;
+  color: black;
+}
+
+.main-card-title-font:hover,
+.main-card-title-font:focus,
+.main-card-title-font-smaller:hover,
+.main-card-title-font-smaller:focus {
+  text-decoration-line: underline;
+  text-decoration-color: #f72210;
+  text-decoration-style: solid;
+  color: black;
+}
+
+.features-text-font {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.813rem !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  letter-spacing: normal !important;
+  line-height: 1.385em !important;
+  color: #333 !important;
+}
+
+.opinion-title-like-font {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.063rem;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 1.235em;
+  color: black;
+}
+
+.opinion-title-like-font:hover,
+.opinion-title-like-font:focus {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.underline-red-hover:hover,
+.underline-red-hover:focus {
+  text-decoration-line: underline;
+  text-decoration-color: #f72210;
+  text-decoration-style: solid;
+  color: black;
+}
+
+.byauthor-font {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 1.5em;
+  color: #555;
+  text-transform: uppercase;
+}
+
+.travel-title-font {
+  font-family: "Lora", serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 1.1em;
+  color: #272727;
+}
+
+.travel-title-font:hover,
+.travel-title-font:focus {
+  text-decoration: none;
+  color: inherit;
+}
+
+.travel-text-font {
+  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+  font-size: 0.938rem !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+  letter-spacing: normal !important;
+  line-height: 1.333em !important;
+  color: rgba(39, 39, 39, 0.5) !important;
+  margin-bottom: 0.625rem;
+}
+
+.red-n-icon-title-font {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.188rem;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 1em;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.red-section-category-font {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  line-height: 1em;
+  letter-spacing: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f72210;
+}
+
+.red-rubric-name-font {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.375rem;
+  line-height: 1em;
+  letter-spacing: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #f72210 !important;
+}
+
+.red-rubric-name-font:hover,
+.red-rubric-name-font:focus {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cover-title-font {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 1em;
+  color: black;
+  text-transform: uppercase;
+}
+
+.feature-img-large {
+  object-fit: cover;
+  object-position: center;
+  height: 19rem;
+}
+
+.feature-img-medium {
+  object-fit: cover;
+  object-position: center;
+  height: 13rem;
+}
+
+.subscribe-title-font {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.4em;
+  letter-spacing: normal;
+  font-weight: 700;
+  color: black;
+}
+
+.subscribe-text-font {
+  font-family: "Liberation Sans", Helvetica, Arial, sans-serif;
+  font-size: 0.938rem;
+  font-weight: 300;
+  line-height: 1.4em;
+  color: #333;
+}
+
+.copyrights-font {
+  font-family: "Liberation Sans", sans-serif;
+  font-size: 0.75rem;
+  line-height: 1em;
+  font-weight: 400;
+  letter-spacing: normal;
+  color: #666;
+  text-transform: uppercase;
+}
+
+.footer-font {
+  font-family: "Liberation Sans", sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 1.071em;
+  color: #666;
+}
+
+/* font families */
+
+@font-face {
+  font-family: 'Genericons';
+  src: url("https://g.newsweek.com/www/fonts/Genericons.eot?#iefix") format("embedded-opentype"), url("https://g.newsweek.com/www/fonts/Genericons.woff") format("woff"), url("https://g.newsweek.com/www/fonts/Genericons.ttf") format("truetype"), url("https://g.newsweek.com/www/fonts/Genericons.svg#Genericons") format("svg");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lora';
+  src: local("loraregular"), url("https://g.newsweek.com/www/fonts/lora-regular-webfont.woff2") format("woff2"), url("https://g.newsweek.com/www/fonts/lora-regular-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: local("roboto_condensedregular"), url("https://g.newsweek.com/www/fonts/robotocondensed-regular-webfont.woff2") format("woff2"), url("https://g.newsweek.com/www/fonts/robotocondensed-regular-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto Condensed';
+  src: local("roboto_condensedbold"), url("https://g.newsweek.com/www/fonts/robotocondensed-bold-webfont.woff2") format("woff2"), url("https://g.newsweek.com/www/fonts/robotocondensed-bold-webfont.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* -------------------------Styling the classes--------------------------------------------- */
+
+/* the navigation bar  */
+
+.larg {
+  max-width: 1300px;
+}
+
+.sticky-nav-top {
+  margin-top: -3.6rem;
+  margin-bottom: 3rem;
+}
+
+/* the sticky hiden navigation with burger menu */
+.my-navbar {
+  height: 3.125rem;
+  background-color: #f72210 !important;
+}
+
+#layer-svg-brand-top {
+  fill: white;
+  width: 132px;
+  height: 20px;
+  margin: 0;
+}
+
+.my-navbar-brand {
+  width: 8.5rem;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.weather-icon {
+  width: 24px;
+  height: 24px;
+  margin: 0;
+}
+
+.signin-box-a {
+  padding: 0.3em 0.5em;
+}
+
+.signin-box-a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.subscribe-box-a {
+  background-color: white;
+  padding-right: 0.625rem;
+  padding-left: 0.75rem;
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+}
+
+.subscribe-box-a::after {
+  content: " >";
+  padding-left: 0.7rem;
+}
+
+.subscribe-box-a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.hamburger-menu-icon {
+  font-size: 1.6rem;
+  font-family: "Genericons", sans-serif;
+  color: white;
+  opacity: 0.6;
+}
+
+.hamburger-menu-search-li:hover,
+.hamburger-menu-search-li:focus {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.hamburger-menu-search-input {
+  width: 90%;
+  border: none;
+  border-radius: 0%;
+  transition: 0.5s;
+  color: gray;
+}
+
+.hamburger-menu-search-input:hover,
+.hamburger-menu-search-input:focus {
+  border: none;
+  box-shadow: none;
+  color: white;
+}
+
+.search-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.my-nav-hiden-list {
+  max-width: 35vw !important;
+  width: 18rem !important;
+  height: 100vh !important;
+  right: 0 !important;
+  left: auto !important;
+  z-index: -10;
+  transform: translate3d(10px, 5px, 0) !important;
+  border-radius: 0%;
+  border: none;
+}
+
+.my-list-hover > a::after {
+  content: " >";
+  font-size: large;
+  line-height: 1rem;
+  position: absolute;
+  right: 5rem;
+}
+
+.my-list-hover:hover,
+.my-list-hover:focus {
+  background-color: black;
+  transition: 0.5s;
+}
+
+.my-list-hover > a:hover,
+.my-list-hover > a:focus {
+  color: white !important;
+}
+
+/* the official nav-bar */
+
+.official-nav-top {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  position: relative;
+  z-index: 2480;
+  background-color: #f4f5f6;
+  height: 9.4375rem;
+}
+
+.official-nav-brand-area-wrapper {
+  background-color: #f72210 !important;
+  height: 5rem;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+#layer-svg-brand-center {
+  fill: white;
+  width: 24.75rem;
+  height: 3.75rem;
+  margin: 0.625rem auto 0;
+}
+
+.official-nav-list-area-wrapper {
+  height: 4.5rem;
+  position: relative;
+  list-style: none;
+  background-color: white;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-right: 0;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.official-nav-list-area-wrapper :first-child,
+.official-nav-list-area-wrapper :nth-last-child(2) {
+  border: none !important;
+}
+
+.official-nav-list-area-wrapper::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  content: "";
+  display: block;
+  width: 5rem;
+  background-color: #f72210;
+  border-left: 0.75rem solid white;
+  border-top: 0.8125rem solid #f72210;
+}
+
+.official-nav-list-search-input {
+  width: 3.2rem;
+  border: none;
+  border-radius: 0%;
+  transition: 0.5s;
+  color: gray;
+  font-size: 1rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.official-nav-list {
+  border-left: 1px solid #d9d9d9;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.official-nav-list:hover {
+  color: #f72210;
+}
+
+.official-nav-list-search-input:hover,
+.official-nav-list-search-input:focus {
+  border: none;
+  box-shadow: none;
+  color: white;
+}
+
+/* hero strories section */
+
+.hero-stories-rubrics-wrapper {
+  padding-top: 0.7rem;
+  background-color: white;
+}
+
+.top-story,
+.featured-stories,
+.opinion,
+.debate,
+.sponsored-insight-1,
+.more-stories,
+.culture-travel,
+.latest-news,
+.sponsored-insight-2 {
+  background-color: white !important;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+  z-index: 1000 !important;
+}
+
+.feature {
+  border-radius: 0% !important;
+  border: none !important;
+  padding-bottom: 1.25rem;
+}
+
+.features-title-text {
+  margin-bottom: 0.2rem !important;
+  margin-top: 0.5rem;
+  line-height: 0.2em !important;
+}
+
+.feature-insight {
+  border-radius: 0% !important;
+  border: 1px solid #e6e6e6 !important;
+  margin-bottom: 1.875rem;
+}
+
+.feature-insight-text {
+  padding: 1.25rem;
+}
+
+.feature-image-box {
+  position: relative;
+}
+
+.feature-img {
+  border-radius: 0%;
+}
+
+.grey-trans-box-img {
+  background-color: rgba(255, 255, 255, 0.6);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 0.5rem 0.9375rem 0.5625rem;
+  margin: 0 !important;
+}
+
+.grey-trans-box-img a:hover,
+.grey-trans-box-img a:focus {
+  text-decoration: none;
+}
+
+.travel-grey-trans-box-img {
+  background-color: #c2d4d7;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding-left: 0.375rem;
+  padding-right: 0.375rem;
+  margin: 0 !important;
+}
+
+.travel-grey-trans-box-img:hover,
+.travel-grey-trans-box-img:focus {
+  text-decoration: none;
+  background-color: rgb(39, 38, 38);
+}
+
+.travel-grey-trans-box-img a:hover,
+.travel-grey-trans-box-img a:focus {
+  text-decoration: none;
+  color: white !important;
+}
+
+.empty-grey-separator {
+  height: 1.125rem;
+  background-color: #f4f5f7;
+  border-top: 1px solid #e2e2e2;
+}
+
+.opinion-vignette {
+  padding-bottom: 0.625rem;
+  padding-top: 0.625rem;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  border-top: 1px solid #ddd;
+}
+
+.opinion :nth-last-child(4) {
+  border: none;
+}
+
+.opinion-author-pic {
+  height: 3.9375rem;
+  width: 3.9375rem;
+  margin-right: 0.9375rem;
+}
+
+.opinion-author-pic > img {
+  height: 3.9375rem;
+  width: 3.9375rem;
+}
+
+.debate-element {
+  position: relative;
+}
+
+.border-double {
+  height: 4px;
+  border-top: solid 1px #d9d9d9;
+  border-bottom: solid 1px #d9d9d9;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+.debater-img {
+  height: 5.9375rem;
+  width: 5.9375rem;
+  margin-right: 0.9375rem;
+}
+
+.byauthor-debate {
+  height: 3rem;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.debate-author-pic {
+  position: absolute;
+  right: 0;
+  bottom: 1rem;
+  margin-right: 0.2rem !important;
+  z-index: 30;
+}
+
+.versus {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: #000;
+  border-radius: 50%;
+  text-align: center;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 0.875rem;
+  line-height: 2.857em;
+  font-weight: 700;
+  color: #d6d6d6;
+  margin-bottom: 1rem;
+}
+
+.red-border {
+  border-top: #f92859 4px solid;
+}
+
+.blue-border {
+  border-top: #1c87fb 4px solid;
+}
+
+.debate-writer:hover,
+.debate-writer:focus {
+  text-decoration: none;
+  color: #000;
+}
+
+.more-story-vignette,
+.latest-news-vignette {
+  padding-bottom: 0.625rem;
+  padding-top: 0.625rem;
+  border-top: 1px solid #ddd;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.more-story-pic {
+  height: 5.9375rem;
+  width: 5.9375rem;
+  margin-right: 0.9375rem;
+}
+
+/* bottom sections with red N titels */
+.red-n-icon {
+  height: 1.75rem;
+  width: 1.8125rem;
+  background-image: url(https://g.newsweek.com/www/images/logo-n1.svg);
+  background-repeat: no-repeat;
+  background-color: #f72210;
+  background-position: center;
+  margin-right: 0.625rem;
+}
+
+.inTheMagazine-section,
+.editor-picks,
+.featured-slideshows {
+  background-color: white !important;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.red-N-title {
+  padding-bottom: 0.75rem;
+  margin-bottom: 0.9375rem;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+footer {
+  padding: 1rem;
+  background-color: white;
+}
+
+.brand-socialmedia,
+.footer-language {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.in-mag-feature,
+.edit-picks-feature,
+.slideshow-feature,
+.slideshow-section,
+.red-rubric-section,
+.rubric-feature {
+  padding-right: 0;
+  padding-left: 0;
+  margin-bottom: 1rem;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inTheMagazine-body {
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.cover-title-box {
+  text-align: center;
+  padding: 0.625rem 0.625rem 0.625rem 0.75rem;
+}
+
+.cover-title-box:hover,
+.cover-title-box:focus {
+  background-color: rgb(163, 160, 160);
+}
+
+.cover-title-box a:hover,
+.cover-title-box a:focus {
+  color: inherit;
+  text-decoration: none;
+}
+
+.rubrics-titles-boxes {
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+}
+
+.title-box1 {
+  background-color: #f72210;
+  padding: 0.4375rem;
+  margin-right: 0.4375rem;
+  color: white !important;
+}
+
+.red-rubric-name {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 1.5625rem;
+  padding-bottom: 0.6875rem;
+  border-top: 1px solid #d9d9d9;
+}
+
+.rubric-feature :nth-child(1) {
+  padding-top: 0 !important;
+  border: none !important;
+}
+
+.subscribe-feature,
+.newsletter-feature {
+  background-color: white !important;
+  padding-top: 1.25rem;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.subscribe-wrapper {
+  margin-bottom: 1.25rem;
+  margin-top: 0.7rem;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-top: 1.5rem;
+  padding-bottom: 1.25rem;
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  background-color: #f4f5f6;
+}
+
+.newsletter-wrapper {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-bottom: 1.25rem;
+  margin-top: 0.7rem;
+  border: solid 1px #ebebeb;
+  min-height: 11.8125rem;
+}
+
+.newsletter-feature-text {
+  padding-bottom: 1.25rem;
+}
+
+.newsletter-feature-image {
+  background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.my-box-sm {
+  height: 10rem;
+}
+
+.my-box-md {
+  height: 11.8125rem;
+}
+
+.my-box-lg {
+  height: 18.8125rem;
+}
+
+.subscribe-feature-image {
+  margin-bottom: 0.9375rem;
+  position: relative;
+  padding-bottom: 0.8125rem;
+  padding-right: 5.625rem;
+}
+
+.subscribe-feature-image :nth-child(2) {
+  position: absolute;
+  top: 0.8125rem;
+  left: 5rem;
+}
+
+.subscribe-title {
+  margin-bottom: 0.9375rem;
+}
+
+.subscribe-text {
+  margin-bottom: 1.5625rem;
+  text-align: center;
+}
+
+.subscribe-red-box {
+  background-color: #f72210;
+  padding-right: 0.625rem;
+  padding-left: 0.75rem;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  color: white !important;
+}
+
+.subscribe-red-box::after {
+  content: " >";
+  padding-left: 0.7rem;
+}
+
+.subscribe-red-box:hover {
+  background-color: #b41a0c;
+}
+
+.subscribe-red-box > a:hover,
+.subscribe-red-box > a:focus {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* footer */
+
+/* the brand logo */
+
+.brand-socialmedia {
+  padding-bottom: 0.75rem !important;
+  padding-top: 0.625rem !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  border-bottom: solid 1px #d9d9d9;
+}
+
+.brand-socialmedia-left {
+  text-align: start;
+}
+
+#layer-svg-brand {
+  fill: #f72210;
+  width: 14.75rem;
+  height: 2.25rem;
+  margin-right: 0.9375rem;
+}
+
+.socialmedia-right {
+  width: 9.9375rem;
+}
+
+.footer-language :nth-child(1) {
+  border: none !important;
+}
+
+.footer-link {
+  border-right: 1px solid #d9d9d9;
+  padding-right: 0.625rem;
+  margin-right: 0.625rem;
+  margin-top: 0.375rem;
+  margin-bottom: 0.375rem;
+}
+
+.footer-link > a:hover,
+.footer-link > a:focus {
+  text-decoration: none;
+  color: black;
+}
