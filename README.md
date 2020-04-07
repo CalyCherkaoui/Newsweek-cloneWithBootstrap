@@ -2,7 +2,7 @@
 
 
 ## Description:
-In this project, I tried to build a clone of ![the Newsweek magazine web page](https://www.newsweek.com/). The purpose of this exercise is to practice web responsiveness, typography styling and, above all ,to learn about Bootsrap and its uses.
+In this project, I tried to build a clone of ![the Newsweek](https://www.newsweek.com/) web page. The purpose of this exercise is to practice web responsiveness, typography styling and, above all ,to learn about Bootsrap and its uses.
 
 
 ## Built With:
